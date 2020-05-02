@@ -2,7 +2,7 @@
 
 A basic and straightforward exemple of how to open a window with SDL2 (2.0.5 stable) and initialize OpenGl stuff with Glew.
   
-I compile it with g++ (Mingw32) using this:
+I compile it with GCC g++ (Mingw32) using this:
   
 `g++ main.cpp --std=c++14 -Wall -I../include -L../lib -lmingw32 -lSDL2main -lSDL2 -lglew32s -lopengl32 -o main`	
   
